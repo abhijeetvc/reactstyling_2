@@ -1,0 +1,25 @@
+.button{
+    border: 2px solid royalblue;
+    padding: 10px;
+    background: transparent;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    min-width: 70px;
+}
+
+.button:hover{
+    background: yellowgreen;
+    color: black;
+}
+
+.unordered-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-item{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0;
+}
